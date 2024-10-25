@@ -1,0 +1,16 @@
+image_filename,size,How many people are in this image?,Is this indoors?,Is this outdoors?,Are there children in this image?,Is there text?,Is there a car?,res
+100_1678_4_.jpg,52K,0,Yes,,,Yes,, Indoors 
+1793365943_cc1f2e4d69.jpg,87K,1,Yes,,,,, Indoors 
+airport_inside_0171.jpg,112K,19,Yes,,,Yes,, Indoors 
+AT_00_05_8295_30_l.jpg,96K,0,Yes,,,Yes,, Indoors 
+BB_Studio_1_Mar2005_800.jpg,113K,0,Yes,,,,, Indoors 
+classroom2.jpg,38K,0,Yes,,,,, Indoors 
+estacion_de_ferrocarriles_35_07_altavista.jpg,132K,0,Yes,,,,, Outdoors 
+explosive_0088.jpg,18K,1,Yes,,,Yes,, Yes 
+explosive_0107.jpg,30K,1,Yes,,,,, Indoors 
+explosive_0415.jpg,36K,1,Yes,,,,, Yes 
+explosive_0537.jpg,58K,3,Yes,,,,, Indoors 
+first_class_0011.jpg,56K,1,Yes,,,,Yes, No 
+gare_102_04_flickr.jpg,173K,14,Yes,,,Yes,, Indoors 
+gimnasio_26_15_flickr.jpg,210K,5,Yes,,,,, Indoors 
+gimnasio_39_02_altavista.jpg,844K,4,Yes,,,,, Indoors 
