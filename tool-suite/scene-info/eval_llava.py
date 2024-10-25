@@ -5,6 +5,7 @@ from tqdm import tqdm
 from pathlib import Path
 
 parser = argparse.ArgumentParser()
+parser.add_argument('--input_csv', type=str, help='Input CSV file containing the image filenames', required=True)
 parser.add_argument('--prompt', type=str, help='Prompt to generate text for', required=True)
 parser.add_argument('--input_dir', type=str, help='Directory containing the input images', default='Handpicked Images')
 parser.add_argument('--n', type=int, help='Number of rows to generate text for', default=None)
