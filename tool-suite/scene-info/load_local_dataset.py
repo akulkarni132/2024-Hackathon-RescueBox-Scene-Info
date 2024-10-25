@@ -32,7 +32,7 @@ if __name__ == "__main__":
     # Try it on one image
     img = {'file_path': file_paths[0], 'class_name': text_data[0], 'class_number': labels_data[0]}
 
-    prompt = "{'prompt': 'Does the following image contain people? Format your response as a Python dictionary with a prediction key and a facts key', 'facts':[]}"
+    prompt = "{'prompt': 'Yes or no, does the following image contain people? Format your response as a Python dictionary with a prediction key and a facts key', 'facts':[]}"
     system_prompt = "You are provided with a JSON object containing two keys: 'prompt' and 'facts'. Your task is to complete the value of 'facts' by breaking down the 'prompt' logically and providing clear, step-by-step reasoning which you will append to the 'facts' value. This reasoning should be a detailed explanation of the underlying concepts, context, or connections needed to fully understand and respond to the 'prompt'. Think about what other questions you could ask yourself to better inform your prediction. You will output your response to the prompt as a JSON object in the format of {'prediction': 'your yes or no answer', 'facts':['your', 'reasoning', 'here']}."
 
     result = generate_text(prompt, img['file_path'], system_prompt)
