@@ -13,9 +13,10 @@ parser.add_argument('--output', type=str, help='Output file to save the generate
 args = parser.parse_args()
 
 input_dir = Path(args.input_dir)
+input_csv = args.input_csv
 
 PROMPT = args.prompt
-df = pd.read_csv('indoor_output_input.csv')
+df = pd.read_csv(input_csv)
 n = args.n if args.n else df.shape[0]
 df = df[:n]
 
